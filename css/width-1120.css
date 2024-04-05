@@ -1,0 +1,82 @@
+@media (min-width: 1120px) {
+    .menu__link-1120 {
+        display: contents;
+    }
+
+    .container {
+        background-color: #F8F8F8;
+        border: none;
+        display: none;
+    }
+
+    .basic-information__inf-1120 {
+        display: contents;
+        font-family: TTLakes, sans-serif;
+        color: #7E7E82;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .basic-information {
+        justify-content: space-around;
+    }
+
+    .basic-information__cps {
+        width: 525px;
+        height: 307px;
+    }
+
+    .basic-information__inf {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 14px;
+    }
+
+    .br {
+        display: none;
+    }
+
+    .service-lane {
+        width: 1063px;
+        height: 82px;
+    }
+
+    .slide-menu {
+        flex-wrap: wrap;
+    }
+
+    .services__highlight {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .repair-checkstatus-1120 {
+        display: flex;
+        width: 375px;
+        justify-content: space-between;
+    }
+
+    .services__link {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .repair-inf {
+        margin-right: 8px;
+        color: #1B1C21;
+        font-size: 16px;
+        font-family: TTLakes, sans-serif;
+    }
+
+    .checkstatus-inf {
+        margin-right: 8px;
+        color: #1B1C21;
+        font-size: 16px;
+        font-family: TTLakes, sans-serif;
+    }
+
+    .services {
+        padding-right: 29px;
+    }
+}

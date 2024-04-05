@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+
+    .basic-information {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .basic-information__inf-768 {
+        display: contents;
+        font-family: TTLakes, sans-serif;
+        color: #7E7E82;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .basic-information__cps {
+        border-radius: 5px;
+        width: 360px;
+        height: 208px;
+    }
+
+    .services__highlight {
+        margin-bottom: 32px;
+    }
+
+    .slide-menu {
+        margin-bottom: 32px;
+    }
+
+    .basic-information__inf {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 10px;
+    }
+
+    .expand {
+        margin-left: 0;
+    }
+
+    .container {
+        justify-content: space-between;
+        padding: 0 24px;
+    }
+
+    .menu-logo {
+        display: flex;
+        width: 180px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .repair-checkstatus {
+        display: flex;
+        width: 116px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__line-768 {
+        border-left: 2px solid #EAEAEA;
+        height: 32px;
+        border-radius: 25px;
+    }
+}
