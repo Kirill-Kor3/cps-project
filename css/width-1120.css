@@ -1,4 +1,10 @@
 @media (min-width: 1120px) {
+
+    .services {
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
     .menu__link-1120 {
         display: contents;
     }
@@ -9,26 +15,13 @@
         display: none;
     }
 
-    .basic-information__inf-1120 {
-        display: contents;
-        font-family: TTLakes, sans-serif;
-        color: #7E7E82;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
     .basic-information {
         justify-content: space-around;
     }
 
-    .basic-information__cps {
-        width: 525px;
-        height: 307px;
-    }
-
     .basic-information__inf {
         width: 100%;
-        height: 160px;
+        min-height: 90px;
         margin-bottom: 14px;
     }
 
@@ -39,10 +32,6 @@
     .service-lane {
         width: 1063px;
         height: 82px;
-    }
-
-    .slide-menu {
-        flex-wrap: wrap;
     }
 
     .services__highlight {
