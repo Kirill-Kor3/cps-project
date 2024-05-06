@@ -8,32 +8,34 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/width-768.css">
     <link rel="stylesheet" href="css/width-1120.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="menu-logo">
         <nav class="menu">
-            <button class="menu__btn"><img class="icon" src="img/icon.png" alt="icon"></button>
+            <button class="menu__btn"><img src="img/burger.svg" alt="icon"></button>
         </nav>
-        <div class="header__line-768"></div>
-        <a class="logo" href="#">
+        <a href="#">
             <img src="img/logo.svg" alt="logo">
         </a>                
             </div>
-            <div class="repair-checkstatus">
+            <div class="header__repair-checkstatus">
         <div class="header__line"></div>
-        <a class="menu__link-repair" href="#"><img src="img/repair.svg" alt="submit your application"></a>
-        <a href="#" class="menu__link-checkstatus"><img src="img/checkstatus.svg" alt="repair status"></a>                
+        <a class="menu__link-repair" href="#"><img src="img/repair.svg" alt="icon-submit-your-application"></a>
+        <a href="#" class="menu__link-checkstatus"><img src="img/checkstatus.svg" alt="repair-status"></a>                
             </div>
         </div>
     </header>
+    <div class="container-main">
     <main class="services">
+      <div class="services__container">
        <div class="services__highlight">
         <h1 class="services__title">Услуги и сервисы</h1>
-        <div class="repair-checkstatus-1120">
-        <a href="#" class="services__link services__link-repair"><span class="repair-inf">Оставить заявку</span><img src="img/repair.svg" alt="submit your application"></a>
-        <a href="#" class="services__link services__link-checkstatus"><span class="checkstatus-inf">Статус ремонта</span><img src="img/checkstatus.svg" alt="repair status"></a>            
+        <div class="services__repair-checkstatus">
+        <a href="#" class="services__link services__link-repair"><span class="repair-information">Оставить заявку</span><img src="img/repair.svg" alt="submit-your-application"></a>
+        <a href="#" class="services__link services__link-checkstatus"><span class="checkstatus-information">Статус ремонта</span><img src="img/checkstatus.svg" alt="repair-status"></a>            
         </div>
        </div>
        <section class="service-lane">
@@ -43,7 +45,7 @@
                     <button class="slide-menu__btn slide-menu__btn--active">Ремонтируемые устройства</button>
                 </li>
                 <li>
-                    <button class="slide-menu__btn">Дополнительные услги</button>
+                    <button class="slide-menu__btn">Дополнительные услуги</button>
                 </li>
                 <li>
                     <button class="slide-menu__btn">Цены на услуги</button>
@@ -60,18 +62,24 @@
             </ul>
         </nav>
        </section>
+      </div>
+      <div class="services-information">
        <section class="basic-information">
-        <div class="basic-information__box-inf">
-       <p class="basic-information__inf">
+        <div class="basic-information__container">
+       <p class="basic-information__text">
         Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
        </p>
        <div class="basic-information__box">
-        <img class="expand" src="img/expand.svg" alt="read more">
-       <p class="basic-information__next">Читать далее</p>
+        <button class="basic-information__more">
+        <img class="basic-information__expand" src="img/expand.svg" alt="read-more">
+        Читать далее
+        </button>
        </div>                   
         </div>
-       <img class="basic-information__cps" src="img/cps.jpg" alt="image with company logo">
-       </section>
-    </main>
+       <img class="basic-information__cps" src="img/cps.jpg" alt="image-with-company-logo">
+       </section>              
+      </div>
+    </main>        
+    </div>
 </body>
 </html>

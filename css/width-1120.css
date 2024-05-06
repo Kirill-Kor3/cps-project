@@ -1,13 +1,6 @@
 @media (min-width: 1120px) {
-
-    .services {
-        max-width: 1120px;
-        margin: 0 auto;
-    }
-
-    .menu__link-1120 {
-        display: contents;
-    }
+    
+/* header */
 
     .container {
         background-color: #F8F8F8;
@@ -15,23 +8,12 @@
         display: none;
     }
 
-    .basic-information {
-        justify-content: space-around;
-    }
+/* main */
+/* menu */
 
-    .basic-information__inf {
-        width: 100%;
-        min-height: 90px;
-        margin-bottom: 14px;
-    }
-
-    .br {
-        display: none;
-    }
-
-    .service-lane {
-        width: 1063px;
-        height: 82px;
+    .container-main {
+        max-width: 1120px;
+        margin: 0 auto;
     }
 
     .services__highlight {
@@ -39,9 +21,13 @@
         justify-content: space-between;
     }
 
-    .repair-checkstatus-1120 {
+    .services__highlight::before {
+        left: auto;
+    }
+
+    .services__repair-checkstatus {
         display: flex;
-        width: 375px;
+        min-width: 375px;
         justify-content: space-between;
     }
 
@@ -51,21 +37,36 @@
         align-items: center;
     }
 
-    .repair-inf {
+    .repair-information {
         margin-right: 8px;
         color: #1B1C21;
         font-size: 16px;
-        font-family: TTLakes, sans-serif;
     }
 
-    .checkstatus-inf {
+    .checkstatus-information {
         margin-right: 8px;
         color: #1B1C21;
         font-size: 16px;
-        font-family: TTLakes, sans-serif;
     }
 
-    .services {
-        padding-right: 29px;
+/* information */
+
+    .services-information {
+        padding: 0 15px;
     }
+
+    .basic-information {
+        justify-content: space-around;
+    }
+
+    .basic-information__container {
+        padding: 0;
+    }
+
+    .basic-information__text {
+        width: 100%;
+        min-height: 90px;
+        margin-bottom: 14px;
+    }
+
 }
