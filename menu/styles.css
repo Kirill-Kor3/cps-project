@@ -1,0 +1,31 @@
+/* normalize */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 320px;
+  font-size: 16px;
+  font-family: TTLakes, sans-serif;
+  color: #7E7E82;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+.header_btn-back {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: #7E7E82;
+}/*# sourceMappingURL=styles.css.map */
