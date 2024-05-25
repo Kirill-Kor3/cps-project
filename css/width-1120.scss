@@ -1,0 +1,79 @@
+@media (min-width: 1120px) {
+    
+    /* header */
+    
+        .container {
+            background-color: #F8F8F8;
+            border: none;
+            display: none;
+        }
+    
+    /* main */
+    /* menu */
+    
+        .container-main {
+            max-width: 1120px;
+            margin: 0 auto;
+
+            .services__highlight {
+                display: flex;
+                justify-content: space-between;
+
+                &::before {
+                    left: auto;
+                }
+
+            }
+        
+            .services__repair-checkstatus {
+                display: flex;
+                min-width: 375px;
+                justify-content: space-between;
+
+                .services__link {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .repair-information {
+                        margin-right: 8px;
+                        color: #1B1C21;
+                        font-size: 16px;
+                    }
+
+                    .checkstatus-information {
+                        margin-right: 8px;
+                        color: #1B1C21;
+                        font-size: 16px;
+                    }
+
+                }
+                
+            }
+        
+        /* information */
+        
+            .services-information {
+                padding: 0 15px;
+
+                .basic-information {
+                    justify-content: space-around;
+
+                    .basic-information__container {
+                        padding: 0;
+
+                        .basic-information__text {
+                            width: 100%;
+                            min-height: 90px;
+                            margin-bottom: 14px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    
+    }
