@@ -1,5 +1,7 @@
 /* normalize */
 html {
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
 }
 
@@ -8,6 +10,8 @@ html {
 }
 
 body {
+  width: 100%;
+  height: 100%;
   font-size: 16px;
   font-family: TTLakes, sans-serif;
   color: #1B1C21;
@@ -98,7 +102,7 @@ ul {
 
 /* main-menu */
 .menu__list {
-  flex-basis: auto;
+  height: 100%;
 }
 
 .menu__item {
