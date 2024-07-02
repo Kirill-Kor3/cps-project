@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/width-768.css">
     <link rel="stylesheet" href="css/width-1120.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -40,7 +43,7 @@
        </div>
        <section class="service-lane">
         <nav class="service-lane__menu">
-                    <button class="service-lane__btn service-lane__btn--active">Ремонтируемые устройства</button>
+                    <button class="service-lane__btn" id="service-lane__btn--active">Ремонтируемые устройства</button>
                     <button class="service-lane__btn">Дополнительные услуги</button>
                     <button class="service-lane__btn">Цены на услуги</button>
                     <button class="service-lane__btn">Адреса сервсных центров</button>
@@ -64,6 +67,68 @@
         </div>
        <img class="basic-information__cps" src="img/cps.jpg" alt="image-with-company-logo">
        </section>              
+      </div>
+      <!-- brands -->
+      <div class="brands">
+        <div class="brands__title">
+            <h2>
+                Ремонт техники различных брендов
+            </h2>
+        </div>
+        <div class="brands__slider swiper">
+            <div class="swiper-wrapper brands__slider-wrapper">
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Lenovo.svg" alt="Lenovo-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Samsung.svg" alt="Samsung-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Apple.svg" alt="Apple-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/ViewSonic.svg" alt="ViewSonic-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Bosch.svg" alt="Bosch-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/hp.svg" alt="hp-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Acer.svg" alt="Acer-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Sony.svg" alt="Sony-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Lenovo.svg" alt="Lenovo-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Samsung.svg" alt="Samsung-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+                <div class="brands__slide swiper-slide">
+                    <img class="brands__image" src="img/Apple.svg" alt="Apple-brand-repair">
+                    <a class="brands__slide-dropdown" href="#"></a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="brands__box">
+            <button class="brands__more">
+            Показать все
+            </button>
+        </div> 
       </div>
     </main>        
     </div>
