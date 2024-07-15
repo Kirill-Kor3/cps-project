@@ -249,12 +249,13 @@ button {
     
     }
 
-    .swiper-wrapper {
-        padding: 16px 0 0 16px;
-    }    
-
     .swiper {
+        width: 240px;
         min-height: 124px;
+    }
+
+    .swiper-wrapper {
+        padding-top: 16px;
     }
     
     .swiper-slide {
@@ -262,7 +263,6 @@ button {
         min-height: 72px;
         border: 1px solid #EAEAEA;
         border-radius: 6px;
-        margin-right: 16px !important;
         display: flex;
         align-items: center;
         justify-content: space-between;

@@ -53,4 +53,7 @@
     min-height: 90px;
     margin-bottom: 14px;
   }
+  .swiper-wrapper {
+    grid-template-columns: repeat(auto-fit, 240px);
+  }
 }/*# sourceMappingURL=width-1120.css.map */

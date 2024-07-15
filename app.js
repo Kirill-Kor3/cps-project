@@ -3,7 +3,6 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         clickable: true
       },
-      spaceBetween: 30,
       centeredSlides: true,
 
     breakpoints: { 
@@ -23,7 +22,7 @@ let items = getInitialItems();
 let isExpanded = false;
 
 function getInitialItems() {
-    return window.innerWidth > 992 ? 8 : 6;
+    return window.innerWidth > 1039 ? 8 : 6;
 }
 
 function updateVisibleItems() {

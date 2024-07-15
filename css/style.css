@@ -203,18 +203,18 @@ button {
   font-weight: 400;
   line-height: 24px;
 }
-.brands .swiper-wrapper {
-  padding: 16px 0 0 16px;
-}
 .brands .swiper {
+  width: 240px;
   min-height: 124px;
+}
+.brands .swiper-wrapper {
+  padding-top: 16px;
 }
 .brands .swiper-slide {
   max-width: 206px;
   min-height: 72px;
   border: 1px solid #EAEAEA;
   border-radius: 6px;
-  margin-right: 16px !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
