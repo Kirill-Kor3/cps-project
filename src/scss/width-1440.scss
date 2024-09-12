@@ -1,0 +1,107 @@
+@media (min-width: 1440px) {
+    
+    /* header */
+    .header {
+        
+        .container {
+            background-color: #F8F8F8;
+            border: none;
+            display: none;
+        }
+
+    }
+    
+    /* main */
+    /* menu */
+    
+        .container-main {
+            max-width: 1440px;
+            margin: 0 auto;
+
+            .menu {
+                translate: 0;
+                box-shadow: none;
+                position: fixed;
+
+                .menu__btn-back {
+                    display: none;
+                }
+
+                .menu__container {
+                    max-height: 890px;
+                }
+            }
+
+            .services {
+                padding-top: 24px;
+                max-width: 1105px;
+                position: relative;
+                left: 320px;
+
+                .services__container {
+    
+                    .services__highlight {
+                        display: flex;
+                        justify-content: space-between;
+        
+                    }
+                
+                    .services__repair-checkstatus {
+                        display: flex;
+                        min-width: 375px;
+                        justify-content: space-between;
+        
+                        .services__link {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+        
+                            .repair-information {
+                                margin-right: 8px;
+                                color: #1B1C21;
+                                font-size: 16px;
+                            }
+        
+                            .checkstatus-information {
+                                margin-right: 8px;
+                                color: #1B1C21;
+                                font-size: 16px;
+                            }
+        
+                        }
+                        
+                    }
+                }
+            }
+
+
+        
+        /* information */
+        
+            .services-information {
+                padding: 0 15px;
+
+                .basic-information {
+                    justify-content: space-around;
+
+                    .basic-information__container {
+                        padding: 0;
+
+                        .basic-information__text {
+                            width: 100%;
+                            min-height: 90px;
+                            margin-bottom: 14px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .swiper-wrapper {
+            grid-template-columns: repeat(auto-fit, 240px);
+        }
+    }
