@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="menu-smoke"></div>
+    <div class="modal-feedback-smoke"></div>
     <header class="header">
         <div class="container">
             <div class="menu-logo">
@@ -61,6 +62,39 @@
                 </div>
             </div>
         </nav>
+        <div class="modal-feedback">
+            <button class="modal-feedback__btn-back"></button>
+            <h2 class="modal-feedback__title">
+                Обратная связь
+            </h2>
+            <input type="text" id="user-name" required placeholder="Имя">
+            <input type="text" id="user-number" required placeholder="Телефон">
+            <input type="text" id="user-mail" required placeholder="Электронная почта">
+            <textarea name="comment" placeholder="Сообщение" cols="20" rows="6"></textarea>
+            <p>
+                Нажимая "отправить", вы даете согласие на 
+                <a href="#">обработку персональных данных</a>
+                и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a>
+            </p>
+            <div class="submit-box">
+                <input class="submit" type="submit" value="Отправить">
+            </div>
+        </div>
+        <div class="modal-call">
+            <button class="modal-call__btn-back"></button>
+            <h2 class="modal-call__title">
+                Заказать звонок
+            </h2>
+            <input type="text" id="user-number" required placeholder="Телефон">
+            <p>
+                Нажимая "отправить", вы даете согласие на 
+                <a href="#">обработку персональных данных</a>
+                и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a>
+            </p>
+            <div class="submit-box">
+                <input class="submit" type="submit" value="Отправить">
+            </div>
+        </div>
         <main class="services">
             <div class="services__container">
                 <div class="services__highlight">
@@ -83,16 +117,21 @@
       </div>
       <div class="services-information">
        <section class="basic-information">
-        <div class="basic-information__container">
-       <p class="basic-information__text">
-        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-       </p>
-       <div class="basic-information__box">
-        <button class="basic-information__more">
-        <img class="basic-information__expand" src="img/expand.svg" alt="read-more">
-        Читать далее
-        </button>
-       </div>                   
+        <div>
+            <div class="basic-information__container">
+           <p class="basic-information__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+           </p>
+           <p class="basic-information__text">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+           </p>
+        </div>
+        <div class="basic-information__box">
+         <img class="basic-information__expand" src="img/expand.svg" alt="read-more">
+         <button class="basic-information__more">
+         Читать далее
+         </button>
+        </div>                   
         </div>
        <img class="basic-information__cps" src="img/cps.jpg" alt="image-with-company-logo">
        </section>              

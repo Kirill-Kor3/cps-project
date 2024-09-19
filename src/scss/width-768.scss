@@ -17,6 +17,26 @@
     
     /* main */
     /* menu */
+
+    .container-main {
+
+        .modal-feedback, .modal-call {
+            padding: 40px 32px 0 32px;
+    
+            &__btn-back {
+                left: -60px;
+            }
+    
+            &__title {
+    
+                &::before {
+                    top: 30px;
+                }
+            }
+        }
+    }
+
+
     .services {
     
         .services__highlight {
@@ -42,7 +62,6 @@
 
                 .basic-information__text {
                     width: 100%;
-                    min-height: 90px;
                     margin-bottom: 10px;
                 }
 
@@ -54,6 +73,11 @@
 
             .basic-information__cps {
                 border-radius: 5px;
+            }
+
+            .text-visible {
+                height: 200px;
+                transition: height 1s ease;
             }
 
         }

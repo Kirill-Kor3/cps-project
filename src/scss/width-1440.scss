@@ -18,6 +18,11 @@
             max-width: 1440px;
             margin: 0 auto;
 
+            .modal-feedback.modal-feedback-open, .modal-call.modal-call-open {
+                translate: 0 0;
+                transition: translate 0.5s;
+            }
+
             .menu {
                 translate: 0;
                 box-shadow: none;
@@ -89,7 +94,6 @@
 
                         .basic-information__text {
                             width: 100%;
-                            min-height: 90px;
                             margin-bottom: 14px;
                         }
 
