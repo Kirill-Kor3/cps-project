@@ -60,11 +60,6 @@
             .basic-information__container {
                 padding: 0;
 
-                .basic-information__text {
-                    width: 100%;
-                    margin-bottom: 10px;
-                }
-
                 .basic-information__expand {
                     margin-left: 0;
                 }
@@ -88,7 +83,6 @@
             .swiper {
                 width: 100%;
                 max-height: 184px; 
-                transition: max-height 1s ease;
                 overflow: hidden;   
             }
 
@@ -113,7 +107,7 @@
 
             .brands__visible {
                 max-height: 1000px;
-                transition: max-height 1s ease;
+                transition: max-height 3s ease;
             }
 
 

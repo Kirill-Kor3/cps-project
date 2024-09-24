@@ -89,6 +89,8 @@ modalFeedbackOpen.addEventListener('click', () => {
 modalFeedbackClose.addEventListener('click', () => {
     modalFeedback.classList.remove('modal-feedback-open');
     modalSmoke.classList.remove('modal-feedback-smoke--open');
+    menu.classList.remove('menu__container-open');
+    menuSmoke.classList.remove('menu-smoke--open');
 });
 
 modalCallOpen.addEventListener('click', () => {
@@ -99,4 +101,19 @@ modalCallOpen.addEventListener('click', () => {
 modalCallClose.addEventListener('click', () => {
     modalCall.classList.remove('modal-call-open');
     modalSmoke.classList.remove('modal-feedback-smoke--open');
+    menu.classList.remove('menu__container-open');
+    menuSmoke.classList.remove('menu-smoke--open');
+});
+
+menuSmoke.addEventListener( 'click', () => {
+        menu.classList.remove('menu__container-open');
+        menuSmoke.classList.remove('menu-smoke--open');
+})
+
+modalSmoke.addEventListener ('click', () => {
+    modalFeedback.classList.remove('modal-feedback-open');
+    modalCall.classList.remove('modal-call-open');
+    modalSmoke.classList.remove('modal-feedback-smoke--open');
+    menu.classList.remove('menu__container-open');
+    menuSmoke.classList.remove('menu-smoke--open');
 });
